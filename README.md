@@ -63,3 +63,7 @@ upstream: https://somehost:123
 #client_key: client.key
 ```
 
+
+## Tailscale (tsnet) userspace-Variante
+
+Das Projekt enthält jetzt eine `tsnet`-basierte Variante (`cmd/tsnet-proxy`) die auf Geräten ohne Kernel-TUN (z. B. reMarkable) läuft. Siehe `docs/TSNET-INSTALL.md` für Build- und Start-Anleitung.
